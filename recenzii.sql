@@ -1,0 +1,1 @@
+﻿SELECT d.denumire, AVG(r.nota) FROM Diamant d, Recenzie r WHERE d.diamantId = r.diamantId GROUP BY d.denumire

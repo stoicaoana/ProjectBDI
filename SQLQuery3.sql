@@ -1,0 +1,1 @@
+﻿SELECT d.denumire as numeDiamant, AVG(r.nota) as MediaRecenzii, COUNT(r.nota) as NumarRecenzii FROM Diamant d, Recenzie r WHERE d.diamantId = r.diamantId GROUP BY d.denumire
